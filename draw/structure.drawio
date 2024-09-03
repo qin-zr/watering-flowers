@@ -109,10 +109,10 @@
         <mxCell id="MA5kDb9d-TIKkB85ZcbT-44" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="326" y="1460" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MA5kDb9d-TIKkB85ZcbT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MA5kDb9d-TIKkB85ZcbT-45" target="MA5kDb9d-TIKkB85ZcbT-50" edge="1">
+        <mxCell id="MA5kDb9d-TIKkB85ZcbT-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.727;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MA5kDb9d-TIKkB85ZcbT-45" target="MA5kDb9d-TIKkB85ZcbT-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="135" y="1730" />
+              <mxPoint x="160" y="1730" />
               <mxPoint x="265" y="1730" />
             </Array>
           </mxGeometry>
@@ -132,16 +132,23 @@
         <mxCell id="pq3obmeSH0XNwpHIWD1J-0" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AI判断土壤干枯&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="1640" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pq3obmeSH0XNwpHIWD1J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pq3obmeSH0XNwpHIWD1J-3" target="MA5kDb9d-TIKkB85ZcbT-50">
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.35;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pq3obmeSH0XNwpHIWD1J-3" target="MA5kDb9d-TIKkB85ZcbT-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="398" y="1730" />
+              <mxPoint x="380" y="1701" />
+              <mxPoint x="380" y="1730" />
               <mxPoint x="265" y="1730" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pq3obmeSH0XNwpHIWD1J-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AI判断叶子枯萎&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="342.5" y="1640" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发送提示信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1790" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pq3obmeSH0XNwpHIWD1J-3" target="pq3obmeSH0XNwpHIWD1J-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
