@@ -144,8 +144,13 @@
         <mxCell id="pq3obmeSH0XNwpHIWD1J-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AI判断叶子枯萎&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="342.5" y="1640" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pq3obmeSH0XNwpHIWD1J-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;发送提示信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="1790" width="90" height="50" as="geometry" />
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pq3obmeSH0XNwpHIWD1J-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;MQTT发送提示信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="1790" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pq3obmeSH0XNwpHIWD1J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pq3obmeSH0XNwpHIWD1J-3" target="pq3obmeSH0XNwpHIWD1J-6">
           <mxGeometry relative="1" as="geometry" />
@@ -155,6 +160,9 @@
         </mxCell>
         <mxCell id="pq3obmeSH0XNwpHIWD1J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MA5kDb9d-TIKkB85ZcbT-50" target="pq3obmeSH0XNwpHIWD1J-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pq3obmeSH0XNwpHIWD1J-12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;手机接收到信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1900" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
